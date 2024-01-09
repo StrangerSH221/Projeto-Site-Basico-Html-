@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <body>
+        <header>
+            <strong>Escritório de Contabilidade ABC</strong>
+            <nav>
+                <a href="index.html">Inicio</a>|
+                <a href="sobre.html">Sobre Nós</a>|
+                <a href="servicos.html">Serviços</a>|
+                <a href="">Contato</a>    
+            </nav>
+        </header>  
+    <hr>
+
+    <main>
+        <section>
+            <h1>Contato</h1>
+
+            <article>
+                <p>Entre em contato conosco para obter mais informações ou agendar uma reunião para discutir suas necessidades contábeis. Nossa equipe está pronta para ajudá-lo</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>informações de contato</h2>
+            
+            <address>
+                <ul>
+                    <li>Email: contato@escritorioabc.com</li>
+                    <li>Telefone: (11) 1234-5678</li>
+                    <li>Endereço: Rua das Flores, 123 - São Paulo/SP</li>
+                </ul>
+            </address>
+        </section>
+
+        <section>
+            <h2>Horario de atendimento</h2>
+
+            <article>
+                <p>Segunda a Sexta-feira, das 8h às 18h.</p>
+            </article>
+        </section>
+
+    <!--Formulario-->
+        <section>
+            <h2>Envie uma Mensagem</h2>
+
+            <form>
+                <!--Nome-->
+                <label for="Name">Nome:</label>
+                <input type="text" name="Name" id="Name">
+
+                <!--Email-->
+                <label for="Email">Email:</label>
+                <input type="email" name="Email" id="Email">
+
+                <!--Mensagem-->
+              <label for="Mensagem">Mensagem: </label>
+            <textarea name="Mensagem" id="Mensagem"></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+            
+            </form>
+        </section>
+    </main>
+<hr>
+
+<!--Rodapé-->
+<footer>
+    <p>&copy; 2023 Escritório de Contabilidade ABC</p>
+</footer>
+</body>
+</html>
